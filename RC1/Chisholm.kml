@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema name="Export_NSW_Min_Label_LineString" id="Export_NSW_Min_Label_LineString">
+      <SimpleField name="Elect_div" type="string">
+      </SimpleField>
+    </Schema>
+    <Folder>
+      <name>TemplateX</name>
+      <Placemark>
+        <Style>
+          <LineStyle>
+            <color>ff0000ff</color>
+          </LineStyle>
+          <PolyStyle>
+            <fill>0</fill>
+          </PolyStyle>
+        </Style>
+        <ExtendedData>
+          <SchemaData schemaUrl="#National">
+            <SimpleData name="Elect_div">Chisholm</SimpleData>
+            <SimpleData name="State">VIC</SimpleData>
+            <SimpleData name="Numccds">245</SimpleData>
+            <SimpleData name="Actual">0</SimpleData>
+            <SimpleData name="Projected">0</SimpleData>
+            <SimpleData name="Total_Population">0</SimpleData>
+            <SimpleData name="Australians_Over_18">0</SimpleData>
+            <SimpleData name="Area_SqKm">64.9781056</SimpleData>
+            <SimpleData name="Sortname">Chisholm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>145.172759,-37.834731,0 145.172759,-37.834731,0</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
