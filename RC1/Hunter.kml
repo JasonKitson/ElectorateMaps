@@ -4,8 +4,9 @@
     <Document id="Hunter">
       <name>Hunter</name>
       <Placemark id="Hunter.1">
+	  	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
         <Polygon>
-          <extrude>0</extrude>
+       
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
